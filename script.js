@@ -77,8 +77,8 @@ function detectImageFolders() {
         22: ["1.webp","2.webp"],
         23: ["1.webp","2.webp","3.webp"],
         24: ["1.webp","2.webp"],
-        25: ["1.webp"],
-        26: ["1.webp","2.webp"]
+        25: ["1.jpg","2.jpg"],
+        26: ["1.jpg"]
     };
     const folders = Object.keys(folderMap).map(num => ({ folder: Number(num), images: folderMap[num] }));
     folders.sort((a, b) => b.folder - a.folder);
